@@ -4,6 +4,255 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="LGry-snD9Anh-l3uWEsa-1" value="SNS" style="swimlane;startSize=0;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="70" width="640" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-0" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="-80" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-3" value="記事を投稿する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="205" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-5" value="記事を修正する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="85" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.775;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=12 12;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-5" target="LGry-snD9Anh-l3uWEsa-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="100" as="sourcePoint" />
+            <mxPoint x="114" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-8" value="記事の登録" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="370" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-3" target="LGry-snD9Anh-l3uWEsa-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="290" as="sourcePoint" />
+            <mxPoint x="240" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" target="LGry-snD9Anh-l3uWEsa-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="90" as="sourcePoint" />
+            <mxPoint x="270" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" target="LGry-snD9Anh-l3uWEsa-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="90" as="sourcePoint" />
+            <mxPoint x="245" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-11" value="記事を閲覧する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="164" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" target="LGry-snD9Anh-l3uWEsa-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="430" as="sourcePoint" />
+            <mxPoint x="205" y="429.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-13" value="記事を検索する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="80" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-15" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-13" target="LGry-snD9Anh-l3uWEsa-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="188" y="269" as="sourcePoint" />
+            <mxPoint x="233" y="218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" target="LGry-snD9Anh-l3uWEsa-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="430" as="sourcePoint" />
+            <mxPoint x="95" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-16" value="記事を評価する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="284" y="500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-17" value="記事の評価更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="380" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.2;entryY=0.075;entryDx=0;entryDy=0;exitX=0.8;exitY=0.9;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-11" target="LGry-snD9Anh-l3uWEsa-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="439.5" as="sourcePoint" />
+            <mxPoint x="215" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-19" value="コミュニティノートの作成" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="280" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-20" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-11" target="LGry-snD9Anh-l3uWEsa-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="233" y="468" as="sourcePoint" />
+            <mxPoint x="197" y="497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-19" target="LGry-snD9Anh-l3uWEsa-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="324" y="124" as="sourcePoint" />
+            <mxPoint x="440" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-11" target="LGry-snD9Anh-l3uWEsa-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="392" y="358" as="sourcePoint" />
+            <mxPoint x="450" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.425;entryY=0.983;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;exitX=1;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-16" target="LGry-snD9Anh-l3uWEsa-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294" y="440" as="sourcePoint" />
+            <mxPoint x="390" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-24" value="ランキング反映" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="490" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-25" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 4;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-17" target="LGry-snD9Anh-l3uWEsa-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="392" y="358" as="sourcePoint" />
+            <mxPoint x="450" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-26" value="記事をRTする" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="150" y="515" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.392;exitY=1.038;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;exitPerimeter=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-11" target="LGry-snD9Anh-l3uWEsa-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="472" as="sourcePoint" />
+            <mxPoint x="294" y="516" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-30" value="記事をブックマークする" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="20" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.058;exitY=0.725;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;exitPerimeter=0;entryX=0.967;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-11" target="LGry-snD9Anh-l3uWEsa-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="192" y="468" as="sourcePoint" />
+            <mxPoint x="196" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="-80" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-35" value="ランキングを表示" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="44" y="595" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-38" value="記事を閲覧する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="194" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-40" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;exitX=1;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-35" target="LGry-snD9Anh-l3uWEsa-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179" y="375" as="sourcePoint" />
+            <mxPoint x="205" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-41" value="コミュニティノートの閲覧" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="360" y="620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-42" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.917;exitY=0.288;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-38" target="LGry-snD9Anh-l3uWEsa-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="690" as="sourcePoint" />
+            <mxPoint x="217" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-43" value="コミュニティノートの評価" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="300" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-45" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-41" target="LGry-snD9Anh-l3uWEsa-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="683" as="sourcePoint" />
+            <mxPoint x="370" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-46" value="記事の評価更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="490" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-47" value="ランキング反映" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="490" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-48" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-46" target="LGry-snD9Anh-l3uWEsa-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412" y="728" as="sourcePoint" />
+            <mxPoint x="470" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-43" target="LGry-snD9Anh-l3uWEsa-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="396" y="522" as="sourcePoint" />
+            <mxPoint x="441" y="469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" target="LGry-snD9Anh-l3uWEsa-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="690" as="sourcePoint" />
+            <mxPoint x="90" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" target="LGry-snD9Anh-l3uWEsa-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="690" as="sourcePoint" />
+            <mxPoint x="54" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-52" value="つぶやく" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="100" y="820" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-54" value="つぶやきの閲覧" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="110" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-56" value="TLの更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="314" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;exitX=1.025;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" target="LGry-snD9Anh-l3uWEsa-56" source="LGry-snD9Anh-l3uWEsa-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="236" y="942" as="sourcePoint" />
+            <mxPoint x="275" y="659" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-58" value="つぶやきのRT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="220" y="990" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.308;entryY=1.033;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;exitX=0.642;exitY=-0.025;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-58" target="LGry-snD9Anh-l3uWEsa-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="233" y="878" as="sourcePoint" />
+            <mxPoint x="324" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-61" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" source="LGry-snD9Anh-l3uWEsa-54" target="LGry-snD9Anh-l3uWEsa-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388" y="698" as="sourcePoint" />
+            <mxPoint x="370" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-62" value="つぶやきのブックマーク" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGry-snD9Anh-l3uWEsa-1">
+          <mxGeometry x="68" y="996" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-63" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;exitX=0.217;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LGry-snD9Anh-l3uWEsa-1" target="LGry-snD9Anh-l3uWEsa-62" source="LGry-snD9Anh-l3uWEsa-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="984" as="sourcePoint" />
+            <mxPoint x="218" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-50" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="990" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="LGry-snD9Anh-l3uWEsa-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1020" as="sourcePoint" />
+            <mxPoint x="204" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-34" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="710" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGry-snD9Anh-l3uWEsa-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="LGry-snD9Anh-l3uWEsa-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1020" as="sourcePoint" />
+            <mxPoint x="270" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
